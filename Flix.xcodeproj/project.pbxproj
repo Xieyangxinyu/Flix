@@ -10,6 +10,7 @@
 		3AB6D512D64833C97596C916 /* Pods_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF2802564F555DD93A88178 /* Pods_FlixUITests.framework */; };
 		4898412E5766BAE1AC43C37C /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0C5C9BF2F159EB7437B4E1 /* Pods_Flix.framework */; };
 		7246F4F02E7B844F66BBF9D9 /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709FB5E4CA806B3D2CD90283 /* Pods_FlixTests.framework */; };
+		EA106FA6221112B7007C6C8F /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA106FA5221112B7007C6C8F /* YoutubeViewController.swift */; };
 		EABBE54721FFD3AD009255AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABBE54621FFD3AD009255AF /* AppDelegate.swift */; };
 		EABBE54C21FFD3AE009255AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABBE54A21FFD3AD009255AF /* Main.storyboard */; };
 		EABBE54E21FFD3AE009255AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABBE54D21FFD3AE009255AF /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		983C8119967D880F7084413E /* Pods-FlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlixTests/Pods-FlixTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B76AE11C26E43CC4E24DF9F5 /* Pods-FlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlixTests/Pods-FlixTests.release.xcconfig"; sourceTree = "<group>"; };
 		CC0C5C9BF2F159EB7437B4E1 /* Pods_Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA106FA5221112B7007C6C8F /* YoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
 		EABBE54321FFD3AD009255AF /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABBE54621FFD3AD009255AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EABBE54B21FFD3AE009255AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				EABBE5742202744F009255AF /* MoviesViewController.swift */,
 				EABBE54621FFD3AD009255AF /* AppDelegate.swift */,
 				EABBE54A21FFD3AD009255AF /* Main.storyboard */,
+				EA106FA5221112B7007C6C8F /* YoutubeViewController.swift */,
 				EACE95C62209105300FAB720 /* MovieGridCell.swift */,
 				EACE95C422090DF200FAB720 /* MovieGridViewController.swift */,
 				EACE95C22209043C00FAB720 /* MovieDetailsViewController.swift */,
@@ -406,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EACE95C522090DF200FAB720 /* MovieGridViewController.swift in Sources */,
+				EA106FA6221112B7007C6C8F /* YoutubeViewController.swift in Sources */,
 				EACE95C32209043C00FAB720 /* MovieDetailsViewController.swift in Sources */,
 				EABBE54721FFD3AD009255AF /* AppDelegate.swift in Sources */,
 				EABBE5752202744F009255AF /* MoviesViewController.swift in Sources */,
